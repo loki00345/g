@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: yellowgreen;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: darkgreen;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar-left, .sidebar-right {
+            width: 20%;
+            padding: 10px;
+        }
+
+        .content {
+            width: 60%;
+            padding: 10px;
+        }
+
+        .block {
+            margin-bottom: 20px;
+            border: 1px solid green;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Website Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Menu Item 1</a></li>
+            <li><a href="#">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar-left">
+            <p>Left Sidebar Content</p>
+        </div>
+
+        <div class="content">
+            <div class="block">
+                <h2>Block 1</h2>
+                <p>Content of Block 1</p>
+            </div>
+            <div class="block">
+                <h2>Block 2</h2>
+                <p>Content of Block 2</p>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <p>Right Sidebar Content</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Your Website Footer</p>
+    </footer>
+
+</body>
+
+</html>
